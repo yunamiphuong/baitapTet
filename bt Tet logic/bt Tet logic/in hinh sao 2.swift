@@ -29,3 +29,29 @@ func drawStar2 () {
         
     }
 }
+
+// chữa
+func drawStar2cach2 () {
+    print("Nhap chieu cao (so le)")
+    let h = Int(readLine() ?? "") ?? 0
+    var n = h/2 + 1
+    var range = 0
+    
+    for i in 1...h{
+        for j in 1...h{
+            if j >= n - range && j <= n + range {
+                print("*", terminator: "")
+            }else{
+                print(" ", terminator: "")
+            }
+        }
+        
+        if i >= n {
+            range -= 1
+        }else {
+            range += 1
+        }
+        print()
+    }
+}
+

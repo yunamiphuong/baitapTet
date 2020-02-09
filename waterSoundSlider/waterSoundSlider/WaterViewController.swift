@@ -23,11 +23,17 @@ class WaterViewController: UIViewController {
         playSound()
         labelControlHere.text = "Điều chỉnh mực nước bằng Slider dưỡi đây"
         labelControlHere.center.y = view.center.y/3
+        sliderWaterControl.value = 0
+        
+        if sliderWaterControl.value = 0.0 {
+            soundPlayer?.pause()
+        }
     }
     
     
     @IBAction func sliderWater(_ sender: UISlider) {
-        uiWaterLevel.frame = CGRect(x: 0, y: view.frame.height - view.frame.height*CGFloat(sender.value), width: view.bounds.width, height: view.frame.height*CGFloat(sender.value))
+//        uiWaterLevel.frame = CGRect(x: 0, y: view.frame.height - view.frame.height*CGFloat(sender.value), width: view.bounds.width, height: view.frame.height*CGFloat(sender.value))
+                uiWaterLevel.frame = CGRect(x: 0, y: view.frame.height*CGFloat(sender.value), width: view.bounds.width, height: view.frame.height)
     }
     
     func playSound() {

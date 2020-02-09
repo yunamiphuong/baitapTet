@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1804967123EBCF1800BA5584 /* dem so nguyen to.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804967023EBCF1800BA5584 /* dem so nguyen to.swift */; };
+		1804967323EBD4D800BA5584 /* 6 chen phan tu mang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804967223EBD4D800BA5584 /* 6 chen phan tu mang.swift */; };
+		1804967523EBD6F200BA5584 /* fibonaci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804967423EBD6F200BA5584 /* fibonaci.swift */; };
+		1804967723EBEB1800BA5584 /* tamGiacPascal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804967623EBEB1800BA5584 /* tamGiacPascal.swift */; };
+		1876CAC423EC13C600E63725 /* 9 chuyen chu caplock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876CAC323EC13C500E63725 /* 9 chuyen chu caplock.swift */; };
+		1876CAC623EC163300E63725 /* 10 kiem tra chuoi doi xung.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876CAC523EC163300E63725 /* 10 kiem tra chuoi doi xung.swift */; };
+		1876CAC823EC16B600E63725 /* 11 nhap mang so nguyen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876CAC723EC16B600E63725 /* 11 nhap mang so nguyen.swift */; };
+		189D1F8D23E7E1FB003506A9 /* amstrong number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D1F8C23E7E1FB003506A9 /* amstrong number.swift */; };
 		18C6F67423E6F5430025EDA1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6F67323E6F5430025EDA1 /* main.swift */; };
 		18C6F67B23E6F5630025EDA1 /* sort() in array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6F67A23E6F5630025EDA1 /* sort() in array.swift */; };
 		18C6F67D23E6F6E70025EDA1 /* in hinh sao 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6F67C23E6F6E70025EDA1 /* in hinh sao 1.swift */; };
@@ -27,6 +35,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1804967023EBCF1800BA5584 /* dem so nguyen to.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "dem so nguyen to.swift"; sourceTree = "<group>"; };
+		1804967223EBD4D800BA5584 /* 6 chen phan tu mang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "6 chen phan tu mang.swift"; sourceTree = "<group>"; };
+		1804967423EBD6F200BA5584 /* fibonaci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fibonaci.swift; sourceTree = "<group>"; };
+		1804967623EBEB1800BA5584 /* tamGiacPascal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tamGiacPascal.swift; sourceTree = "<group>"; };
+		1876CAC323EC13C500E63725 /* 9 chuyen chu caplock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9 chuyen chu caplock.swift"; sourceTree = "<group>"; };
+		1876CAC523EC163300E63725 /* 10 kiem tra chuoi doi xung.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10 kiem tra chuoi doi xung.swift"; sourceTree = "<group>"; };
+		1876CAC723EC16B600E63725 /* 11 nhap mang so nguyen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11 nhap mang so nguyen.swift"; sourceTree = "<group>"; };
+		189D1F8C23E7E1FB003506A9 /* amstrong number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "amstrong number.swift"; sourceTree = "<group>"; };
 		18C6F67023E6F5430025EDA1 /* bt Tet logic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bt Tet logic"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C6F67323E6F5430025EDA1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		18C6F67A23E6F5630025EDA1 /* sort() in array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sort() in array.swift"; sourceTree = "<group>"; };
@@ -66,6 +82,14 @@
 			isa = PBXGroup;
 			children = (
 				18C6F67323E6F5430025EDA1 /* main.swift */,
+				1876CAC723EC16B600E63725 /* 11 nhap mang so nguyen.swift */,
+				1876CAC323EC13C500E63725 /* 9 chuyen chu caplock.swift */,
+				1876CAC523EC163300E63725 /* 10 kiem tra chuoi doi xung.swift */,
+				1804967623EBEB1800BA5584 /* tamGiacPascal.swift */,
+				1804967423EBD6F200BA5584 /* fibonaci.swift */,
+				1804967223EBD4D800BA5584 /* 6 chen phan tu mang.swift */,
+				1804967023EBCF1800BA5584 /* dem so nguyen to.swift */,
+				189D1F8C23E7E1FB003506A9 /* amstrong number.swift */,
 				18C6F68023E7060E0025EDA1 /* ngay thang nam.swift */,
 				18C6F67E23E703480025EDA1 /* in hinh sao 2.swift */,
 				18C6F67C23E6F6E70025EDA1 /* in hinh sao 1.swift */,
@@ -132,11 +156,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1804967523EBD6F200BA5584 /* fibonaci.swift in Sources */,
 				18C6F67423E6F5430025EDA1 /* main.swift in Sources */,
 				18C6F67F23E703480025EDA1 /* in hinh sao 2.swift in Sources */,
+				189D1F8D23E7E1FB003506A9 /* amstrong number.swift in Sources */,
+				1804967323EBD4D800BA5584 /* 6 chen phan tu mang.swift in Sources */,
+				1804967123EBCF1800BA5584 /* dem so nguyen to.swift in Sources */,
+				1876CAC623EC163300E63725 /* 10 kiem tra chuoi doi xung.swift in Sources */,
+				1804967723EBEB1800BA5584 /* tamGiacPascal.swift in Sources */,
 				18C6F67B23E6F5630025EDA1 /* sort() in array.swift in Sources */,
 				18C6F68123E7060E0025EDA1 /* ngay thang nam.swift in Sources */,
+				1876CAC823EC16B600E63725 /* 11 nhap mang so nguyen.swift in Sources */,
 				18C6F67D23E6F6E70025EDA1 /* in hinh sao 1.swift in Sources */,
+				1876CAC423EC13C600E63725 /* 9 chuyen chu caplock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

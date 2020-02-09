@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="lixi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lixi2" translatesAutoresizingMaskIntoConstraints="NO" id="3OU-Dk-1ld">
+                                <rect key="frame" x="0.0" y="44" width="414" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BYs-8y-fEg">
+                                <rect key="frame" x="44" y="673" width="330" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2I3-vG-hZV">
+                                <rect key="frame" x="7" y="260" width="397" height="336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yk-Np-aEZ">
+                                <rect key="frame" x="20" y="260" width="79" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="lixi1"/>
+                                <connections>
+                                    <action selector="pressLixi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jds-A0-0oL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fb0-YZ-7m7">
+                                <rect key="frame" x="114" y="417" width="80" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="lixi8"/>
+                                <connections>
+                                    <action selector="pressLixi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZEE-So-RG0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdu-rp-RNl">
+                                <rect key="frame" x="214" y="260" width="94" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="lixi3"/>
+                                <connections>
+                                    <action selector="pressLixi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TPo-FQ-XOm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKQ-Jd-E5J">
+                                <rect key="frame" x="114" y="203" width="80" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="lixi4"/>
+                                <connections>
+                                    <action selector="pressLixi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iD0-CP-LZL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D56-Lc-CHf">
+                                <rect key="frame" x="313" y="363" width="91" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="lixi5"/>
+                                <connections>
+                                    <action selector="pressLixi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1wQ-KU-ybC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KU9-OS-AGn">
+                                <rect key="frame" x="25" y="499" width="69" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="lixi6"/>
+                                <connections>
+                                    <action selector="pressLixi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="637-X7-Y5S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xxf-lZ-7pk">
+                                <rect key="frame" x="50" y="795" width="318" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressReplay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cOy-rx-b87"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pcm-PM-fx9">
+                                <rect key="frame" x="222" y="499" width="79" height="157"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="lixi7"/>
+                                <connections>
+                                    <action selector="pressLixi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aRH-DK-fxC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonLixi1" destination="9yk-Np-aEZ" id="bLA-ef-LTE"/>
+                        <outlet property="buttonLixi2" destination="Bdu-rp-RNl" id="DhR-NT-Wyh"/>
+                        <outlet property="buttonLixi3" destination="pKQ-Jd-E5J" id="E6n-SZ-tpZ"/>
+                        <outlet property="buttonLixi4" destination="D56-Lc-CHf" id="tdI-Gv-5Tl"/>
+                        <outlet property="buttonLixi5" destination="KU9-OS-AGn" id="3zh-yW-dy1"/>
+                        <outlet property="buttonLixi6" destination="Pcm-PM-fx9" id="Wvg-9Z-d0p"/>
+                        <outlet property="buttonLixi7" destination="fb0-YZ-7m7" id="hl3-KB-lme"/>
+                        <outlet property="buttonReplay" destination="Xxf-lZ-7pk" id="CGU-PT-KHd"/>
+                        <outlet property="imageTien" destination="2I3-vG-hZV" id="IPA-FH-eYZ"/>
+                        <outlet property="labelBottom" destination="BYs-8y-fEg" id="wyh-ys-ItX"/>
+                        <outlet property="labelTop" destination="3OU-Dk-1ld" id="Ram-wJ-v6O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lixi1" width="720" height="1524"/>
+        <image name="lixi2" width="429" height="200"/>
+        <image name="lixi3" width="640" height="1281"/>
+        <image name="lixi4" width="499" height="995"/>
+        <image name="lixi5" width="634" height="1273"/>
+        <image name="lixi6" width="126" height="259"/>
+        <image name="lixi7" width="124" height="259"/>
+        <image name="lixi8" width="127" height="257"/>
+    </resources>
+</document>
